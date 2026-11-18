@@ -1,0 +1,17 @@
+Classification Report: Decision Tree
+============================================================
+
+                  precision    recall  f1-score   support
+
+Legitimate (Ham)     0.9836    0.9688    0.9761       865
+            Spam     0.9059    0.9489    0.9269       274
+
+        accuracy                         0.9640      1139
+       macro avg     0.9447    0.9588    0.9515      1139
+    weighted avg     0.9649    0.9640    0.9643      1139
+
+
+Confusion Matrix:
+TN: 838, FP: 27, FN: 14, TP: 260
+Accuracy: 0.9640, Spam Precision: 0.9059, Spam Recall: 0.9489, Spam F1: 0.9269, ROC-AUC: 0.9588
+Train Time: 2.910s, Inference Time: 0.3057s

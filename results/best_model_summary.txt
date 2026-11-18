@@ -1,0 +1,17 @@
+======================================================================
+BEST MODEL SELECTION SUMMARY REPORT
+======================================================================
+Selected Algorithm       : Support Vector Machine (LinearSVC with CalibratedClassifierCV)
+Overall Accuracy         : 99.56%
+Spam Precision           : 99.27%
+Spam Recall              : 98.91%
+Spam F1-Score            : 0.9909
+ROC-AUC Discrimination   : 0.9998
+False Positives (FP)     : 2 (FPR: 0.23%)
+False Negatives (FN)     : 3 (FNR: 1.09%)
+True Positives (TP)      : 271
+True Negatives (TN)      : 863
+Total Test Predictions   : 1,139
+Training Duration        : 0.997 seconds
+Inference Latency        : 0.166 ms / email
+======================================================================

@@ -1,0 +1,263 @@
+[2026-11-18 23:01:38] [INFO] [DataLoader]: Loading raw dataset from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv
+[2026-11-18 23:01:39] [INFO] [DataLoader]: Raw dataset loaded. Shape: (5728, 2)
+[2026-11-18 23:01:39] [INFO] [DataPreprocessing]: Initial raw records: 5728
+[2026-11-18 23:01:39] [INFO] [DataPreprocessing]: Removed 33 duplicate email records. Remaining unique: 5695
+[2026-11-18 23:01:39] [INFO] [DataPreprocessing]: Applying text normalization, tokenization, stopword removal, lemmatization...
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: Processed dataset saved to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\processed\cleaned_emails.csv (5695 records)
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: TRAIN-TEST SPLIT SUMMARY (80% / 20% STRATIFIED)
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: Total Preprocessed Records : 5,695
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: Training Set (80%)         : 4,556 emails [Ham: 3,462 (75.99%), Spam: 1,094 (24.01%)]
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: Testing Set (20%)          : 1,139 emails [Ham: 865 (75.94%), Spam: 274 (24.06%)]
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: Stratification Verified    : Spam proportions are identical across both splits.
+[2026-11-18 23:01:49] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:03:24] [INFO] [EDA]: ============================================================
+[2026-11-18 23:03:24] [INFO] [EDA]: EXPLORATORY DATA ANALYSIS (EDA) SUMMARY
+[2026-11-18 23:03:24] [INFO] [EDA]: ============================================================
+[2026-11-18 23:03:24] [INFO] [EDA]: Total Unique Emails Analyzed: 5,695
+[2026-11-18 23:03:24] [INFO] [EDA]: Ham Emails: 4,327 | Spam Emails: 1,368
+[2026-11-18 23:03:24] [INFO] [EDA]: Ham Avg Characters: 1634.2 (Median: 1122.0)
+[2026-11-18 23:03:24] [INFO] [EDA]: Spam Avg Characters: 1317.3 (Median: 693.5)
+[2026-11-18 23:03:24] [INFO] [EDA]: Ham Avg Words: 346.3 | Spam Avg Words: 266.4
+[2026-11-18 23:03:24] [INFO] [EDA]: Generating publication-quality graphs...
+[2026-11-18 23:03:25] [INFO] [EDA]: Saved Figure 5.1 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_1_class_distribution.png
+[2026-11-18 23:03:27] [INFO] [EDA]: Saved Figure 5.2 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_2_length_distributions.png
+[2026-11-18 23:11:40] [INFO] [EDA]: ============================================================
+[2026-11-18 23:11:40] [INFO] [EDA]: EXPLORATORY DATA ANALYSIS (EDA) SUMMARY
+[2026-11-18 23:11:40] [INFO] [EDA]: ============================================================
+[2026-11-18 23:11:40] [INFO] [EDA]: Total Unique Emails Analyzed: 5,695
+[2026-11-18 23:11:40] [INFO] [EDA]: Ham Emails: 4,327 | Spam Emails: 1,368
+[2026-11-18 23:11:40] [INFO] [EDA]: Ham Avg Characters: 1634.2 (Median: 1122.0)
+[2026-11-18 23:11:40] [INFO] [EDA]: Spam Avg Characters: 1317.3 (Median: 693.5)
+[2026-11-18 23:11:40] [INFO] [EDA]: Ham Avg Words: 346.3 | Spam Avg Words: 266.4
+[2026-11-18 23:11:40] [INFO] [EDA]: Generating publication-quality graphs...
+[2026-11-18 23:11:41] [INFO] [EDA]: Saved Figure 5.1 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_1_class_distribution.png
+[2026-11-18 23:11:43] [INFO] [EDA]: Saved Figure 5.2 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_2_length_distributions.png
+[2026-11-18 23:11:44] [INFO] [EDA]: Saved Figure 5.3 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_3_length_boxplots.png
+[2026-11-18 23:11:46] [INFO] [EDA]: Saved Figure 5.4 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_4_top_vocabulary.png
+[2026-11-18 23:11:46] [INFO] [EDA]: EDA completed successfully.
+[2026-11-18 23:11:46] [INFO] [EDA]: ============================================================
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: TRAIN-TEST SPLIT SUMMARY (80% / 20% STRATIFIED)
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: Total Preprocessed Records : 5,695
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: Training Set (80%)         : 4,556 emails [Ham: 3,462 (75.99%), Spam: 1,094 (24.01%)]
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: Testing Set (20%)          : 1,139 emails [Ham: 865 (75.94%), Spam: 274 (24.06%)]
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: Stratification Verified    : Spam proportions are identical across both splits.
+[2026-11-18 23:19:28] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:19:28] [INFO] [FeatureExtraction]: Fitting TFIDF vectorizer on training data exclusively...
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Transforming test data using fitted TFIDF vectorizer...
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: SPARSE MATRIX ANALYSIS: TFIDF TRAINING MATRIX
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Matrix Dimensions       : (4,556, 5,000)
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Vocabulary Features     : 5,000
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Non-Zero Entries (nnz)  : 413,522
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Matrix Sparsity Ratio   : 98.18% (zero-valued cells)
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Sparse Storage Type     : csr_matrix
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:19:31] [INFO] [FeatureExtraction]: Fitting COUNT vectorizer on training data exclusively...
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Transforming test data using fitted COUNT vectorizer...
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: SPARSE MATRIX ANALYSIS: COUNT TRAINING MATRIX
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Matrix Dimensions       : (4,556, 5,000)
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Vocabulary Features     : 5,000
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Non-Zero Entries (nnz)  : 413,522
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Matrix Sparsity Ratio   : 98.18% (zero-valued cells)
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: Sparse Storage Type     : csr_matrix
+[2026-11-18 23:19:35] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:28:13] [INFO] [Main]: Stage 1-3: Loading and auditing benchmark dataset...
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Raw dataset already exists at C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv (8960484 bytes).
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Loading raw dataset from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Raw dataset loaded. Shape: (5728, 2)
+[2026-11-18 23:28:13] [INFO] [DataLoader]: ============================================================
+[2026-11-18 23:28:13] [INFO] [DataLoader]: DATASET STRUCTURAL METADATA & DATA QUALITY AUDIT
+[2026-11-18 23:28:13] [INFO] [DataLoader]: ============================================================
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Total Raw Records       : 5,728
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Legitimate Emails (Ham) : 4,360 (76.12%)
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Spam Emails             : 1,368 (23.88%)
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Missing / Null Values   : 0
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Duplicate Messages      : 33
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Cleaned Unique Target   : 5,695
+[2026-11-18 23:28:13] [INFO] [DataLoader]: Disk Storage Footprint  : 8,960,484 bytes (8.55 MB)
+[2026-11-18 23:28:13] [INFO] [DataLoader]: ============================================================
+[2026-11-18 23:28:13] [INFO] [Main]: Stage 4: Running Exploratory Data Analysis...
+[2026-11-18 23:28:13] [INFO] [EDA]: ============================================================
+[2026-11-18 23:28:13] [INFO] [EDA]: EXPLORATORY DATA ANALYSIS (EDA) SUMMARY
+[2026-11-18 23:28:13] [INFO] [EDA]: ============================================================
+[2026-11-18 23:28:13] [INFO] [EDA]: Total Unique Emails Analyzed: 5,695
+[2026-11-18 23:28:13] [INFO] [EDA]: Ham Emails: 4,327 | Spam Emails: 1,368
+[2026-11-18 23:28:13] [INFO] [EDA]: Ham Avg Characters: 1634.2 (Median: 1122.0)
+[2026-11-18 23:28:13] [INFO] [EDA]: Spam Avg Characters: 1317.3 (Median: 693.5)
+[2026-11-18 23:28:13] [INFO] [EDA]: Ham Avg Words: 346.3 | Spam Avg Words: 266.4
+[2026-11-18 23:28:13] [INFO] [EDA]: Generating publication-quality graphs...
+[2026-11-18 23:28:14] [INFO] [EDA]: Saved Figure 5.1 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_1_class_distribution.png
+[2026-11-18 23:28:15] [INFO] [EDA]: Saved Figure 5.2 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_2_length_distributions.png
+[2026-11-18 23:28:16] [INFO] [EDA]: Saved Figure 5.3 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_3_length_boxplots.png
+[2026-11-18 23:28:18] [INFO] [EDA]: Saved Figure 5.4 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_5_4_top_vocabulary.png
+[2026-11-18 23:28:18] [INFO] [EDA]: EDA completed successfully.
+[2026-11-18 23:28:18] [INFO] [EDA]: ============================================================
+[2026-11-18 23:28:18] [INFO] [Main]: Stage 5-7: Running Preprocessing & Stratified 80/20 Train-Test Split...
+[2026-11-18 23:28:18] [INFO] [DataPreprocessing]: Initial raw records: 5728
+[2026-11-18 23:28:18] [INFO] [DataPreprocessing]: Removed 33 duplicate email records. Remaining unique: 5695
+[2026-11-18 23:28:18] [INFO] [DataPreprocessing]: Applying text normalization, tokenization, stopword removal, lemmatization...
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: Processed dataset saved to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\processed\cleaned_emails.csv (5695 records)
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: TRAIN-TEST SPLIT SUMMARY (80% / 20% STRATIFIED)
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: Total Preprocessed Records : 5,695
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: Training Set (80%)         : 4,556 emails [Ham: 3,462 (75.99%), Spam: 1,094 (24.01%)]
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: Testing Set (20%)          : 1,139 emails [Ham: 865 (75.94%), Spam: 274 (24.06%)]
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: Stratification Verified    : Spam proportions are identical across both splits.
+[2026-11-18 23:28:27] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:28:27] [INFO] [Main]: Stage 8: Analyzing Feature Extraction and Matrix Sparsity...
+[2026-11-18 23:28:27] [INFO] [FeatureExtraction]: Fitting TFIDF vectorizer on training data exclusively...
+[2026-11-18 23:28:29] [INFO] [FeatureExtraction]: Transforming test data using fitted TFIDF vectorizer...
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: SPARSE MATRIX ANALYSIS: TFIDF TRAINING MATRIX
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: Matrix Dimensions       : (4,556, 5,000)
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: Vocabulary Features     : 5,000
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: Non-Zero Entries (nnz)  : 411,119
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: Matrix Sparsity Ratio   : 98.20% (zero-valued cells)
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: Sparse Storage Type     : csr_matrix
+[2026-11-18 23:28:30] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:28:30] [INFO] [Main]: Stage 9-10: Assembling Pipelines and Training All 10 ML Algorithms...
+[2026-11-18 23:28:30] [INFO] [ModelTraining]: =================================================================
+[2026-11-18 23:28:30] [INFO] [ModelTraining]: TRAINING ALL 10 MACHINE LEARNING ALGORITHMS
+[2026-11-18 23:28:30] [INFO] [ModelTraining]: =================================================================
+[2026-11-18 23:28:30] [INFO] [ModelTraining]: [01/10] Training Multinomial Naive Bayes    ...
+[2026-11-18 23:28:33] [INFO] [ModelTraining]: [01/10] Training Multinomial Naive Bayes    ... Done (2.83s)
+[2026-11-18 23:28:33] [INFO] [ModelTraining]: [02/10] Training Bernoulli Naive Bayes      ...
+[2026-11-18 23:28:35] [INFO] [ModelTraining]: [02/10] Training Bernoulli Naive Bayes      ... Done (2.52s)
+[2026-11-18 23:28:35] [INFO] [ModelTraining]: [03/10] Training Complement Naive Bayes     ...
+[2026-11-18 23:28:37] [INFO] [ModelTraining]: [03/10] Training Complement Naive Bayes     ... Done (2.35s)
+[2026-11-18 23:28:37] [INFO] [ModelTraining]: [04/10] Training Logistic Regression        ...
+[2026-11-18 23:28:40] [INFO] [ModelTraining]: [04/10] Training Logistic Regression        ... Done (2.68s)
+[2026-11-18 23:28:40] [INFO] [ModelTraining]: [05/10] Training Support Vector Machine     ...
+[2026-11-18 23:28:43] [INFO] [ModelTraining]: [05/10] Training Support Vector Machine     ... Done (2.65s)
+[2026-11-18 23:28:43] [INFO] [ModelTraining]: [06/10] Training Decision Tree              ...
+[2026-11-18 23:28:46] [INFO] [ModelTraining]: [06/10] Training Decision Tree              ... Done (2.91s)
+[2026-11-18 23:28:46] [INFO] [ModelTraining]: [07/10] Training Random Forest              ...
+[2026-11-18 23:28:48] [INFO] [ModelTraining]: [07/10] Training Random Forest              ... Done (2.75s)
+[2026-11-18 23:28:48] [INFO] [ModelTraining]: [08/10] Training K-Nearest Neighbors        ...
+[2026-11-18 23:28:51] [INFO] [ModelTraining]: [08/10] Training K-Nearest Neighbors        ... Done (2.50s)
+[2026-11-18 23:28:51] [INFO] [ModelTraining]: [09/10] Training Gradient Boosting          ...
+[2026-11-18 23:29:07] [INFO] [ModelTraining]: [09/10] Training Gradient Boosting          ... Done (16.37s)
+[2026-11-18 23:29:07] [INFO] [ModelTraining]: [10/10] Training XGBoost                    ...
+[2026-11-18 23:29:17] [INFO] [ModelTraining]: [10/10] Training XGBoost                    ... Done (9.97s)
+[2026-11-18 23:29:17] [INFO] [ModelTraining]: =================================================================
+[2026-11-18 23:29:17] [INFO] [ModelTraining]: All 10 models trained successfully without errors.
+[2026-11-18 23:29:17] [INFO] [ModelTraining]: =================================================================
+[2026-11-18 23:29:17] [INFO] [Main]: Stage 11: Evaluating All 10 Models on Untouched Test Partition...
+[2026-11-18 23:29:17] [INFO] [ModelEvaluation]: =================================================================
+[2026-11-18 23:29:17] [INFO] [ModelEvaluation]: EVALUATING ALL 10 MODELS ON UNTOUCHED TEST SET (N=1,139)
+[2026-11-18 23:29:17] [INFO] [ModelEvaluation]: =================================================================
+[2026-11-18 23:29:18] [INFO] [ModelEvaluation]: Multinomial Naive Bayes    -> Acc: 0.9824 | Prec: 0.9704 | Rec: 0.9562 | F1: 0.9632 | AUC: 0.9988 | FP: 8 | FN: 12
+[2026-11-18 23:29:19] [INFO] [ModelEvaluation]: Bernoulli Naive Bayes      -> Acc: 0.9350 | Prec: 0.7907 | Rec: 0.9927 | F1: 0.8803 | AUC: 0.9987 | FP: 72 | FN: 2
+[2026-11-18 23:29:20] [INFO] [ModelEvaluation]: Complement Naive Bayes     -> Acc: 0.9816 | Prec: 0.9377 | Rec: 0.9891 | F1: 0.9627 | AUC: 0.9993 | FP: 18 | FN: 3
+[2026-11-18 23:29:22] [INFO] [ModelEvaluation]: Logistic Regression        -> Acc: 0.9886 | Prec: 0.9925 | Rec: 0.9599 | F1: 0.9759 | AUC: 0.9995 | FP: 2 | FN: 11
+[2026-11-18 23:29:23] [INFO] [ModelEvaluation]: Support Vector Machine     -> Acc: 0.9930 | Prec: 0.9854 | Rec: 0.9854 | F1: 0.9854 | AUC: 0.9998 | FP: 4 | FN: 4
+[2026-11-18 23:29:24] [INFO] [ModelEvaluation]: Decision Tree              -> Acc: 0.9640 | Prec: 0.9059 | Rec: 0.9489 | F1: 0.9269 | AUC: 0.9588 | FP: 27 | FN: 14
+[2026-11-18 23:29:25] [INFO] [ModelEvaluation]: Random Forest              -> Acc: 0.9860 | Prec: 0.9962 | Rec: 0.9453 | F1: 0.9700 | AUC: 0.9987 | FP: 1 | FN: 15
+[2026-11-18 23:29:26] [INFO] [ModelEvaluation]: K-Nearest Neighbors        -> Acc: 0.9833 | Prec: 0.9670 | Rec: 0.9635 | F1: 0.9653 | AUC: 0.9962 | FP: 9 | FN: 10
+[2026-11-18 23:29:27] [INFO] [ModelEvaluation]: Gradient Boosting          -> Acc: 0.9798 | Prec: 0.9665 | Rec: 0.9489 | F1: 0.9576 | AUC: 0.9972 | FP: 9 | FN: 14
+[2026-11-18 23:29:28] [INFO] [ModelEvaluation]: XGBoost                    -> Acc: 0.9798 | Prec: 0.9373 | Rec: 0.9818 | F1: 0.9590 | AUC: 0.9981 | FP: 18 | FN: 5
+[2026-11-18 23:29:28] [INFO] [ModelEvaluation]: =================================================================
+[2026-11-18 23:29:28] [INFO] [Main]: Stage 12: Compiling Comparative Benchmark Tables & Visualization Charts...
+[2026-11-18 23:29:28] [INFO] [ModelComparison]: Model comparison CSV saved to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\model_comparison.csv
+[2026-11-18 23:29:28] [INFO] [ModelComparison]: Model comparison TXT saved to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\model_comparison.txt
+[2026-11-18 23:29:29] [INFO] [ModelComparison]: Saved Figure 12.1 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_12_1_multi_metric_comparison.png
+[2026-11-18 23:29:30] [INFO] [ModelComparison]: Saved Figure 12.2 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_12_2_f1_score_ranking.png
+[2026-11-18 23:29:31] [INFO] [ModelComparison]: Saved Figure 12.3 to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\graphs\figure_12_3_training_time_vs_f1.png
+[2026-11-18 23:29:31] [INFO] [Main]: Stage 13: Performing 5-Fold Stratified CV Hyperparameter Tuning on Leading Models...
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: =================================================================
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: HYPERPARAMETER OPTIMIZATION (5-FOLD STRATIFIED CV ON TRAIN SET)
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: =================================================================
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: ------------------------------------------------------------
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: Tuning Support Vector Machine using 5-Fold Stratified CV (metric: 'f1')...
+[2026-11-18 23:29:31] [INFO] [HyperparameterTuning]: Search Grid: {'tfidf__max_features': [4000, 5000, 6000], 'tfidf__ngram_range': [(1, 1), (1, 2)], 'clf__estimator__C': [0.1, 1.0, 5.0]}
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: Tuning Support Vector Machine completed in 40.02s.
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: Optimal Parameters : {'clf__estimator__C': 5.0, 'tfidf__max_features': 6000, 'tfidf__ngram_range': (1, 2)}
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: Best 5-Fold CV F1-Score: 0.9863
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: ------------------------------------------------------------
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: Tuning Logistic Regression using 5-Fold Stratified CV (metric: 'f1')...
+[2026-11-18 23:30:11] [INFO] [HyperparameterTuning]: Search Grid: {'tfidf__max_features': [4000, 5000], 'tfidf__ngram_range': [(1, 1), (1, 2)], 'clf__C': [0.5, 1.0, 5.0, 10.0]}
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: Tuning Logistic Regression completed in 30.49s.
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: Optimal Parameters : {'clf__C': 10.0, 'tfidf__max_features': 5000, 'tfidf__ngram_range': (1, 1)}
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: Best 5-Fold CV F1-Score: 0.9820
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: ------------------------------------------------------------
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: Tuning Multinomial Naive Bayes using 5-Fold Stratified CV (metric: 'f1')...
+[2026-11-18 23:30:42] [INFO] [HyperparameterTuning]: Search Grid: {'tfidf__max_features': [4000, 5000], 'tfidf__ngram_range': [(1, 1), (1, 2)], 'clf__alpha': [0.1, 0.5, 1.0, 2.0]}
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: Tuning Multinomial Naive Bayes completed in 28.92s.
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: Optimal Parameters : {'clf__alpha': 0.1, 'tfidf__max_features': 5000, 'tfidf__ngram_range': (1, 2)}
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: Best 5-Fold CV F1-Score: 0.9687
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: =================================================================
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: Hyperparameter tuning completed successfully for all candidate models.
+[2026-11-18 23:31:11] [INFO] [HyperparameterTuning]: =================================================================
+[2026-11-18 23:31:11] [INFO] [Main]: Stage 14-15: Selecting Best Model, Generating Final Heatmap & Serializing Pipeline...
+[2026-11-18 23:31:11] [INFO] [BestModelSelection]: =================================================================
+[2026-11-18 23:31:11] [INFO] [BestModelSelection]: TRAINING SELECTED BEST MODEL PIPELINE (TUNED LINEARSVC + CALIBRATION)
+[2026-11-18 23:31:11] [INFO] [BestModelSelection]: =================================================================
+[2026-11-18 23:31:12] [INFO] [BestModelSelection]: Winning model trained successfully in 0.997 seconds.
+[2026-11-18 23:31:13] [INFO] [BestModelSelection]: Saved Figure 14.1 confusion matrix to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\confusion_matrices\figure_14_1_best_svm_confusion_matrix.png
+[2026-11-18 23:31:13] [INFO] [BestModelSelection]: Serialized complete winning pipeline to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\models\best_spam_detection_model.joblib
+[2026-11-18 23:31:13] [INFO] [BestModelSelection]: Exported model metadata to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\models\best_model_metadata.json
+[2026-11-18 23:31:13] [INFO] [BestModelSelection]: Exported best model summary to C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\results\best_model_summary.txt
+[2026-11-18 23:31:13] [INFO] [BestModelSelection]: 
+======================================================================
+BEST MODEL SELECTION SUMMARY REPORT
+======================================================================
+Selected Algorithm       : Support Vector Machine (LinearSVC with CalibratedClassifierCV)
+Overall Accuracy         : 99.56%
+Spam Precision           : 99.27%
+Spam Recall              : 98.91%
+Spam F1-Score            : 0.9909
+ROC-AUC Discrimination   : 0.9998
+False Positives (FP)     : 2 (FPR: 0.23%)
+False Negatives (FN)     : 3 (FNR: 1.09%)
+True Positives (TP)      : 271
+True Negatives (TN)      : 863
+Total Test Predictions   : 1,139
+Training Duration        : 0.997 seconds
+Inference Latency        : 0.166 ms / email
+======================================================================
+
+[2026-11-18 23:31:13] [INFO] [Main]: Stage 16: Verifying Real-Time Terminal Inference...
+[2026-11-18 23:31:13] [INFO] [Prediction]: Loading trained model from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\models\best_spam_detection_model.joblib...
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Loading raw dataset from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Raw dataset loaded. Shape: (5728, 2)
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Loading raw dataset from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Raw dataset loaded. Shape: (5728, 2)
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Loading raw dataset from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\data\raw\emails.csv
+[2026-11-18 23:31:33] [INFO] [DataLoader]: Raw dataset loaded. Shape: (5728, 2)
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: TRAIN-TEST SPLIT SUMMARY (80% / 20% STRATIFIED)
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Total Preprocessed Records : 5,695
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Training Set (80%)         : 4,556 emails [Ham: 3,462 (75.99%), Spam: 1,094 (24.01%)]
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Testing Set (20%)          : 1,139 emails [Ham: 865 (75.94%), Spam: 274 (24.06%)]
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Stratification Verified    : Spam proportions are identical across both splits.
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: TRAIN-TEST SPLIT SUMMARY (80% / 20% STRATIFIED)
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Total Preprocessed Records : 5,695
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Training Set (80%)         : 4,556 emails [Ham: 3,462 (75.99%), Spam: 1,094 (24.01%)]
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Testing Set (20%)          : 1,139 emails [Ham: 865 (75.94%), Spam: 274 (24.06%)]
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: Stratification Verified    : Spam proportions are identical across both splits.
+[2026-11-18 23:31:33] [INFO] [DataPreprocessing]: ============================================================
+[2026-11-18 23:31:33] [INFO] [FeatureExtraction]: Fitting TFIDF vectorizer on training data exclusively...
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Transforming test data using fitted TFIDF vectorizer...
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: SPARSE MATRIX ANALYSIS: TFIDF TRAINING MATRIX
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Matrix Dimensions       : (4,556, 5,000)
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Vocabulary Features     : 5,000
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Non-Zero Entries (nnz)  : 411,119
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Matrix Sparsity Ratio   : 98.20% (zero-valued cells)
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: Sparse Storage Type     : csr_matrix
+[2026-11-18 23:31:36] [INFO] [FeatureExtraction]: ============================================================
+[2026-11-18 23:31:36] [INFO] [Prediction]: Loading trained model from C:\Users\Userabcd\Desktop\Email_Spam_Detection_ML\models\best_spam_detection_model.joblib...

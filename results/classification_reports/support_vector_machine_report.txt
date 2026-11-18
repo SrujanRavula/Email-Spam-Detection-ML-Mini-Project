@@ -1,0 +1,17 @@
+Classification Report: Support Vector Machine
+============================================================
+
+                  precision    recall  f1-score   support
+
+Legitimate (Ham)     0.9954    0.9954    0.9954       865
+            Spam     0.9854    0.9854    0.9854       274
+
+        accuracy                         0.9930      1139
+       macro avg     0.9904    0.9904    0.9904      1139
+    weighted avg     0.9930    0.9930    0.9930      1139
+
+
+Confusion Matrix:
+TN: 861, FP: 4, FN: 4, TP: 270
+Accuracy: 0.9930, Spam Precision: 0.9854, Spam Recall: 0.9854, Spam F1: 0.9854, ROC-AUC: 0.9998
+Train Time: 2.654s, Inference Time: 0.2971s

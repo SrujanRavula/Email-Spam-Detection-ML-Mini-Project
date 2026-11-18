@@ -1,0 +1,17 @@
+Classification Report: XGBoost
+============================================================
+
+                  precision    recall  f1-score   support
+
+Legitimate (Ham)     0.9941    0.9792    0.9866       865
+            Spam     0.9373    0.9818    0.9590       274
+
+        accuracy                         0.9798      1139
+       macro avg     0.9657    0.9805    0.9728      1139
+    weighted avg     0.9805    0.9798    0.9800      1139
+
+
+Confusion Matrix:
+TN: 847, FP: 18, FN: 5, TP: 269
+Accuracy: 0.9798, Spam Precision: 0.9373, Spam Recall: 0.9818, Spam F1: 0.9590, ROC-AUC: 0.9981
+Train Time: 9.972s, Inference Time: 0.3664s

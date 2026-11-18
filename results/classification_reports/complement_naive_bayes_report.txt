@@ -1,0 +1,17 @@
+Classification Report: Complement Naive Bayes
+============================================================
+
+                  precision    recall  f1-score   support
+
+Legitimate (Ham)     0.9965    0.9792    0.9878       865
+            Spam     0.9377    0.9891    0.9627       274
+
+        accuracy                         0.9816      1139
+       macro avg     0.9671    0.9841    0.9752      1139
+    weighted avg     0.9823    0.9816    0.9817      1139
+
+
+Confusion Matrix:
+TN: 847, FP: 18, FN: 3, TP: 271
+Accuracy: 0.9816, Spam Precision: 0.9377, Spam Recall: 0.9891, Spam F1: 0.9627, ROC-AUC: 0.9993
+Train Time: 2.354s, Inference Time: 0.3172s

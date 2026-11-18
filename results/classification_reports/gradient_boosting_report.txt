@@ -1,0 +1,17 @@
+Classification Report: Gradient Boosting
+============================================================
+
+                  precision    recall  f1-score   support
+
+Legitimate (Ham)     0.9839    0.9896    0.9867       865
+            Spam     0.9665    0.9489    0.9576       274
+
+        accuracy                         0.9798      1139
+       macro avg     0.9752    0.9693    0.9722      1139
+    weighted avg     0.9797    0.9798    0.9797      1139
+
+
+Confusion Matrix:
+TN: 856, FP: 9, FN: 14, TP: 260
+Accuracy: 0.9798, Spam Precision: 0.9665, Spam Recall: 0.9489, Spam F1: 0.9576, ROC-AUC: 0.9972
+Train Time: 16.374s, Inference Time: 0.3086s

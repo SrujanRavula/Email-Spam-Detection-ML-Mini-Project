@@ -1,0 +1,39 @@
+{
+    "model_name": "Support Vector Machine (LinearSVC with CalibratedClassifierCV)",
+    "selected_timestamp": "2026-11-18 23:31:13",
+    "training_samples": 4556,
+    "test_samples": 1139,
+    "hyperparameters": {
+        "C": 5.0,
+        "max_features": 5000,
+        "ngram_range": [
+            1,
+            1
+        ],
+        "sublinear_tf": true,
+        "norm": "l2",
+        "calibration": "sigmoid (Platt scaling)",
+        "cv_calibration": 3,
+        "random_state": 42
+    },
+    "performance_metrics": {
+        "overall_accuracy": 0.9956,
+        "spam_precision": 0.9927,
+        "spam_recall": 0.9891,
+        "spam_f1_score": 0.9909,
+        "roc_auc": 0.9998,
+        "false_positives": 2,
+        "false_negatives": 3,
+        "true_positives": 271,
+        "true_negatives": 863,
+        "false_positive_rate": 0.0023,
+        "false_negative_rate": 0.0109,
+        "training_time_seconds": 0.997,
+        "inference_time_seconds": 0.1891,
+        "latency_per_email_ms": 0.166
+    },
+    "artifacts": {
+        "serialized_model": "C:\\Users\\Userabcd\\Desktop\\Email_Spam_Detection_ML\\models\\best_spam_detection_model.joblib",
+        "confusion_matrix_figure": "C:\\Users\\Userabcd\\Desktop\\Email_Spam_Detection_ML\\results\\confusion_matrices\\figure_14_1_best_svm_confusion_matrix.png"
+    }
+}
