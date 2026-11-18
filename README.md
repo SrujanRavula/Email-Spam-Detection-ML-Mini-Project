@@ -94,4 +94,12 @@ An end-to-end Machine Learning system for automated email spam classification, b
 - **Predict a Single Email:**
   ```powershell
   python main.py --predict "Subject: Urgent Winner Notification! You have won $500,000 cash in our lottery! Claim here: http://lottery-claim.com"
+
+
+
+  ## Demo Video
+
+Watch the complete working demonstration of the Email Spam Detection System.
+
+ [▶ Watch Email Spam Detection Demo](demo/email_spam_detection_demo.mp4)
   ```
